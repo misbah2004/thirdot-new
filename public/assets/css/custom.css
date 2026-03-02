@@ -316,6 +316,26 @@ body {
     }
 }
 
+/* Target the image inside your loader */
+#loading-icon img {
+    width: 100%;
+    /* adjust size as needed */
+    height: 100%;
+    animation: spin 1.5s linear infinite;
+    /* spin continuously */
+}
+
+/* Keyframes for rotation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .section-row {
     margin-bottom: 60px;
 }
