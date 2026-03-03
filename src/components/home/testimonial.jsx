@@ -8,6 +8,7 @@ const Testimonial = () => {
         {
             id: 1,
             name: "Ali Khan",
+            iconStar: "/assets/images/icon-star.svg",
             role: "CEO, TechSoft",
             image: "https://randomuser.me/api/portraits/men/32.jpg",
             message: "Amazing service! Highly professional team and great support."
@@ -15,6 +16,7 @@ const Testimonial = () => {
         {
             id: 2,
             name: "Sara Ahmed",
+            iconStar: "/assets/images/icon-star.svg",
             role: "Marketing Head",
             image: "https://randomuser.me/api/portraits/women/44.jpg",
             message: "Our sales increased after working with them. Recommended!"
@@ -22,6 +24,7 @@ const Testimonial = () => {
         {
             id: 3,
             name: "Usman Tariq",
+            iconStar: "/assets/images/icon-star.svg",
             role: "Founder, StartupX",
             image: "https://randomuser.me/api/portraits/men/12.jpg",
             message: "Top-notch development skills and smooth communication."
@@ -29,6 +32,7 @@ const Testimonial = () => {
         {
             id: 4,
             name: "Ayesha Noor",
+            iconStar: "/assets/images/icon-star.svg",
             role: "UI Designer",
             image: "https://randomuser.me/api/portraits/women/68.jpg",
             message: "Very creative team. They understand modern UI trends."
@@ -66,12 +70,28 @@ const Testimonial = () => {
                         >
                             {testimonials.map((item) => (
                                 <SwiperSlide key={item.id}>
-                                    <div className="testimonial-card">
-                                        <img src={item.image} alt={item.name} />
-                                        <p className="message">"{item.message}"</p>
-                                        <h4>{item.name}</h4>
-                                        <span>{item.role}</span>
+                                    <div className="swiper-slide">
+                                        <div className="testimonial-item">
+                                            <div className="testimonial-rating">
+                                                <img src={item.iconStar} alt="Star Rating" />
+                                            </div>
+                                            <div className="testimonial-content">
+                                                <p>
+                                                    {item.message}
+                                                </p>
+                                            </div>
+                                            <div className="testimonial-body">
+                                                <figure className="image-anime">
+                                                    <img src={item.image} alt={item.name} />
+                                                </figure>
+                                                <div className="testimonial-author-title">
+                                                    <h2>{item.name}</h2>
+                                                    <p>{item.role}</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </SwiperSlide>
                             ))}
                         </Swiper>

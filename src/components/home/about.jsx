@@ -29,7 +29,7 @@ const About = () => {
                                     </div>
                                     <div className="about-consultation">
                                         <figure>
-                                            <img src="/assets/images/about-circle1.png" alt="" />
+                                            <img src="/assets/images/thirdot-bout.png" alt="" />
                                         </figure>
                                     </div>
                                 </div>

@@ -12,12 +12,6 @@ const Home = () => {
     return (
         <>
             <div>
-                {/* Magic Cursor Start */}
-                <div id="magic-cursor">
-                    <div id="ball" />
-                </div>
-                {/* Magic Cursor End */}
-
                 {/* Hero Section Start */}
                 <Hero />
                 {/* Hero Section End */}

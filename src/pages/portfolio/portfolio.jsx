@@ -1,10 +1,22 @@
 import React from 'react'
+import PortfolioHeader from '../../components/portfolio/portfolio-header'
+import OurPortfolio from '../../components/portfolio/our-portfolio'
 
 const Portfolio = () => {
     return (
-        <div className='h-screen w-full bg-gray-200 flex justify-center items-center '>
-            <h1 className='text-3xl font-bold '>Page is under construction</h1>
-        </div>
+        <>
+            <div>
+                <>
+                    {/* Page Header Start */}
+                    <PortfolioHeader />
+                    {/* Page Header End */}
+                    {/* Projects Page Start */}
+                    <OurPortfolio />
+                    {/* Projects Page End */}
+                </>
+
+            </div>
+        </>
     )
 }
 

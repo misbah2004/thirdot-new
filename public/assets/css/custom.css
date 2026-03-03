@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------------------
 * Author        : Awaiken
-* Template Name : Weebix - IT Service And Technology HTML Template
+* Template Name : Thirdot - IT Service And Technology HTML Template
 * File          : CSS File
 * Version       : 1.0
 * ---------------------------------------------------------------------------------------- */
@@ -606,6 +606,164 @@ header.main-header .header-sticky.active {
 
 .slicknav_open>a .slicknav_arrow:after {
     transform: rotate(-180deg);
+}
+
+/* Basic Layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+.header-btn {
+    margin-left: 20px;
+}
+
+/* Hamburger */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+}
+
+.hamburger span {
+    height: 3px;
+    background: #000;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+/* Animate Hamburger */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Sticky Header */
+.main-header.sticky-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+
+    .hamburger {
+        display: flex;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        display: none;
+    }
+
+    .nav-menu.open {
+        display: flex;
+    }
+
+    .mobile-btn {
+        display: block;
+    }
+}
+
+/* Hamburger Hidden on Desktop */
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+}
+
+.navbar-toggle span {
+    height: 3px;
+    background: #000;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+/* Animate Hamburger */
+.navbar-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.navbar-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* MOBILE ONLY */
+
+/* Hide only on mobile by default */
+@media (max-width: 991px) {
+
+    .navbar-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        width: 30px;
+    }
+
+    .navbar-toggle span {
+        height: 3px;
+        background: #000;
+        margin: 4px 0;
+        transition: 0.3s;
+    }
+
+    /* IMPORTANT FIX */
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        display: none;
+        z-index: 999;
+    }
+
+    .navbar-collapse.mobile-open {
+        display: block;
+    }
 }
 
 /************************************/
@@ -2561,8 +2719,7 @@ header.main-header .header-sticky.active {
         display: block;
     }
 
-    .responsive-menu,
-    .navbar-toggle {
+    .responsive-menu {
         display: block;
     }
 

@@ -6,6 +6,11 @@ const Layout = ({ children }) => {
     return (
         <>
             <div>
+                {/* Magic Cursor Start */}
+                {/* <div id="magic-cursor">
+                    <div id="ball" />
+                </div> */}
+                {/* Magic Cursor End */}
                 {/* Preloader Start */}
                 <div className="preloader">
                     <div className="loading-container">
