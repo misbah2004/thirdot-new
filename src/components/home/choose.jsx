@@ -24,7 +24,7 @@ const Choose = () => {
                                     data-wow-delay="0.25s"
                                 >
                                     <div className="icon-box">
-                                        <img src="/assets/images/icon-whyus-1.svg" alt="" />
+                                        <img src="/assets/images/img-thirdot-3.svg" alt="" />
                                     </div>
                                     <h3>innovation</h3>
                                     <p>
@@ -41,7 +41,7 @@ const Choose = () => {
                                     data-wow-delay="0.5s"
                                 >
                                     <div className="icon-box">
-                                        <img src="/assets/images/icon-whyus-2.svg" alt="" />
+                                        <img src="/assets/images/img-thirdot-1.svg" alt="" />
                                     </div>
                                     <h3>quality-focused</h3>
                                     <p>
@@ -58,7 +58,7 @@ const Choose = () => {
                                     data-wow-delay="0.75s"
                                 >
                                     <div className="icon-box">
-                                        <img src="/assets/images/icon-whyus-3.svg" alt="" />
+                                        <img src="/assets/images/img-thirdot-4.svg" alt="" />
                                     </div>
                                     <h3>value for money</h3>
                                     <p>
@@ -83,7 +83,7 @@ const Choose = () => {
                                                 {/* Section Title End */}
                                                 {/* Explore Item Icon Start */}
                                                 <div className="explore-item-icon">
-                                                    <img src="/assets/images/icon-whyus-4.svg" alt="" />
+                                                    <img src="/assets/images/img-thirdot-2.svg" alt="" />
                                                 </div>
                                                 {/* Explore Item Icon End */}
                                             </div>

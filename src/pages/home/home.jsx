@@ -7,6 +7,8 @@ import Choose from '../../components/home/choose'
 import Partner from '../../components/home/partner'
 import Testimonial from '../../components/home/testimonial'
 import News from '../../components/home/news'
+import OurBlogs from '../../components/blog/our-blogs'
+import AboutSection from '../../components/home/about'
 
 const Home = () => {
     return (
@@ -16,13 +18,13 @@ const Home = () => {
                 <Hero />
                 {/* Hero Section End */}
                 {/* About Section Start */}
-                <About />
+                <AboutSection />
                 {/* About Section End */}
                 {/* Our Services Section Start */}
                 <Services />
                 {/* Our Services Section End */}
                 {/* Our Work Section Start */}
-                <Work />
+                <Work start="0" end="4" />
                 {/* Our Work Section End */}
                 {/* Why Choose Us Section Start */}
                 <Choose />
@@ -34,7 +36,8 @@ const Home = () => {
                 <Testimonial />
                 {/* Clients Testimonials Section End */}
                 {/* Latest News Section Start */}
-                <News />
+                {/* <News /> */}
+                <OurBlogs start="0" end="3" />
                 {/* Latest News Section End */}
 
 

@@ -1,77 +1,38 @@
 import React from "react";
+import { blogData } from "../../utils/data";
+import { Link, useLocation } from "react-router-dom";
 
-const blogData = [
-    {
-        id: 1,
-        image: "/assets/images/post-1.jpg",
-        date: "10 April 2024",
-        title: "Unlocking the Potential of AI in Business Success",
-        delay: "0.25s",
-    },
-    {
-        id: 2,
-        image: "/assets/images/post-2.jpg",
-        date: "10 April 2024",
-        title: "Strategies for Building a Successful Distributed Team",
-        delay: "0.5s",
-    },
-    {
-        id: 3,
-        image: "/assets/images/post-3.jpg",
-        date: "10 April 2024",
-        title: "Empowering Citizen Developers and Accelerating Innovation",
-        delay: "0.75s",
-    },
-    {
-        id: 4,
-        image: "/assets/images/post-4.jpg",
-        date: "10 April 2024",
-        title: "Revolutionizing Software Development",
-        delay: "1s",
-    },
-    {
-        id: 5,
-        image: "/assets/images/post-5.jpg",
-        date: "10 April 2024",
-        title: "Ensuring Compliance and Trust in Software Solutions",
-        delay: "1.25s",
-    },
-    {
-        id: 6,
-        image: "/assets/images/post-7.jpg",
-        date: "10 April 2024",
-        title: "Creating Immersive Software Experiences",
-        delay: "1.5s",
-    },
-    {
-        id: 7,
-        image: "/assets/images/post-8.jpg",
-        date: "10 April 2024",
-        title: "Revolutionizing Software Development",
-        delay: "1s",
-    },
-    {
-        id: 8,
-        image: "/assets/images/post-5.jpg",
-        date: "10 April 2024",
-        title: "Ensuring Compliance and Trust in Software Solutions",
-        delay: "1.25s",
-    },
-    {
-        id: 9,
-        image: "/assets/images/post-9.jpg",
-        date: "10 April 2024",
-        title: "Creating Immersive Software Experiences",
-        delay: "1.5s",
-    },
-];
 
-const OurBlogs = () => {
+
+const OurBlogs = ({ start, end }) => {
+    const location = useLocation().pathname;
+
     return (
         <div className="latest-news our-blog">
             <div className="container">
+                {location === "/" && <div className="row section-row align-items-center">
+                    <div className="col-lg-6 col-md-8">
+                        {/* Section Title Start */}
+                        <div className="section-title">
+                            <h3 className="wow fadeInUp">Latest Blog &amp; Articles</h3>
+                            <h2 className="text-anime-style-3">
+                                The latest insights you need to know
+                            </h2>
+                        </div>
+                        {/* Section Title End */}
+                    </div>
+                    <div className="col-lg-6 col-md-4">
+                        {/* Section Btn Start */}
+                        <div className="section-btn wow fadeInUp" data-wow-delay="0.25s">
+                            <Link onClick={() => window.scrollTo(0, 0)} to="/blog" className="btn-default">
+                                view all articles
+                            </Link>
+                        </div>
+                        {/* Section Btn End */}
+                    </div>
+                </div>}
                 <div className="row">
-                    {blogData.map((blog) => (
+                    {blogData.slice(start, end).map((blog) => (
                         <div key={blog.id} className="col-lg-4 col-md-6">
                             <div
                                 className="blog-item wow fadeInUp"
@@ -92,6 +53,7 @@ const OurBlogs = () => {
                                     <h2>
                                         <a href="#">{blog.title}</a>
                                     </h2>
+                                    <p>{blog.paragraph.split(" ").slice(0, 30).join(" ")}...</p>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +61,7 @@ const OurBlogs = () => {
                 </div>
 
                 {/* Pagination (Static) */}
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-md-12">
                         <div
                             className="post-pagination wow fadeInUp"
@@ -128,7 +90,7 @@ const OurBlogs = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

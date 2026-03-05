@@ -32,23 +32,23 @@ const Header = () => {
                                 <ul className="navbar-nav mr-auto">
 
                                     <li className="nav-item">
-                                        <Link onClick={() => setMenuOpen(!menuOpen)} className="nav-link" to="/">Home</Link>
+                                        <Link onClick={() => { setMenuOpen(!menuOpen); window.scrollTo(0, 0); }} className="nav-link" to="/">Home</Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link onClick={() => setMenuOpen(!menuOpen)} className="nav-link" to="/about">About Us</Link>
+                                        <Link onClick={() => { setMenuOpen(!menuOpen); window.scrollTo(0, 0); }} className="nav-link" to="/about">About Us</Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link onClick={() => setMenuOpen(!menuOpen)} className="nav-link" to="/services">Services</Link>
+                                        <Link onClick={() => { setMenuOpen(!menuOpen); window.scrollTo(0, 0); }} className="nav-link" to="/services">Services</Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link onClick={() => setMenuOpen(!menuOpen)} className="nav-link" to="/portfolio">Portfolio</Link>
+                                        <Link onClick={() => { setMenuOpen(!menuOpen); window.scrollTo(0, 0); }} className="nav-link" to="/portfolio">Portfolio</Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link onClick={() => setMenuOpen(!menuOpen)} className="nav-link" to="/blog">Blog</Link>
+                                        <Link onClick={() => { setMenuOpen(!menuOpen); window.scrollTo(0, 0); }} className="nav-link" to="/blog">Blog</Link>
                                     </li>
 
                                 </ul>
@@ -56,7 +56,7 @@ const Header = () => {
 
                             <div className="header-btn d-inline-flex">
                                 <Link to="/contact" className="btn-default">
-                                    Free Consultation
+                                    get Consultation
                                 </Link>
                             </div>
 

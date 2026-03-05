@@ -2,39 +2,9 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import { teamData } from "../../utils/data";
 
-const teamData = [
-    {
-        id: 1,
-        name: "Arita Banson",
-        role: "Founder & CEO",
-        imageTextbox: "/assets/images/team-1.jpg",
-    },
-    {
-        id: 2,
-        name: "John Doe",
-        role: "Sr. Development",
-        imageTextbox: "/assets/images/team-2.jpg",
-    },
-    {
-        id: 3,
-        name: "Arita Doe",
-        role: "Sr. Designer",
-        imageTextbox: "/assets/images/team-3.jpg",
-    },
-    {
-        id: 4,
-        name: "Banson Doe",
-        role: "Sr. Manager",
-        imageTextbox: "/assets/images/team-4.jpg",
-    },
-    {
-        id: 5,
-        name: "Muhammad Misah Ul Hassan",
-        role: "Sr. Manager",
-        imageTextbox: "/assets/images/team-5.png",
-    },
-];
+
 
 const OurTeam = () => {
     return (
@@ -44,7 +14,7 @@ const OurTeam = () => {
                 {/* Section Title */}
                 <div className="row section-row align-items-center">
                     <div className="col-lg-12">
-                        <div className="section-title text-center">
+                        <div className="section-title ">
                             <h3>Our Team</h3>
                             <h2>Meet the Expert</h2>
                         </div>

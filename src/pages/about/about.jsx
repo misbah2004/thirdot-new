@@ -7,6 +7,7 @@ import PageAbout from '../../components/about/page-about'
 import OverCompany from '../../components/about/over-company'
 import OurTeam from '../../components/about/our-team'
 import TickerSection from '../../components/about/ticker-section'
+import AboutSection from '../../components/home/about'
 
 const About = () => {
     return (
@@ -17,7 +18,8 @@ const About = () => {
                     <AboutHeader />
                     {/* Page Header End */}
                     {/* Page About Section Start */}
-                    <PageAbout />
+                    {/* <PageAbout /> */}
+                    <AboutSection />
                     {/* Page About Section End */}
                     {/* Why Choose Us Section Start */}
                     <Choose />

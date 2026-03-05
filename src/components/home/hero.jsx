@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
@@ -14,31 +15,30 @@ const Hero = () => {
                                     <div className="section-title">
                                         {/* <h3 className="wow fadeInUp">about our Company</h3> */}
                                         <h1 className="text-anime-style-3">
-                                            Web Design, SEO &amp; Internet Marketing For{" "}
-                                            <span>Your Business</span>
+                                            Engineering  &amp; Brilliance {" "}
+                                            <span>Through Code.</span>
                                         </h1>
                                     </div>
                                     {/* Section Title End */}
                                     {/* Hero Body Start */}
                                     <div className="hero-body">
                                         <p className="wow fadeInUp" data-wow-delay="0.5s">
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                            quae ab illo veritatis et quasi architecto beatae vitae dicta
-                                            sunt.
+                                            We transform complex challenges into elegant software solutions. From high-growth startups to Fortune 500 enterprises, we deliver digital excellence.
                                         </p>
                                     </div>
                                     {/* Hero Body End */}
                                     {/* Hero Footer Start */}
-                                    <div className="hero-footer">
-                                        <a
-                                            href="#"
-                                            className="btn-default wow fadeInUp"
-                                            data-wow-delay="0.75s"
-                                        >
-                                            free consultation
-                                        </a>
-                                    </div>
+                                    <Link to="/contact">
+                                        <div className="hero-footer">
+                                            <a
+                                                href="#"
+                                                className="btn-default wow fadeInUp"
+                                                data-wow-delay="0.75s"
+                                            >
+                                                get consultation
+                                            </a>
+                                        </div>
+                                    </Link>
                                     {/* Hero Footer End */}
                                 </div>
                                 {/* Hero Left Content End */}

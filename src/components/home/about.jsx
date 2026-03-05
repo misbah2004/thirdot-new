@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const About = () => {
+const AboutSection = () => {
     return (
         <>
             <div>
@@ -12,7 +13,7 @@ const About = () => {
                                 <div className="section-title">
                                     <h3 className="wow fadeInUp">about Company</h3>
                                     <h2 className="text-anime-style-3">
-                                        Websites that tell your brand's story
+                                        Who We Are
                                     </h2>
                                 </div>
                                 {/* Section Title End */}
@@ -39,38 +40,39 @@ const About = () => {
                                 {/* About Us Content Start */}
                                 <div className="about-content">
                                     <p className="wow fadeInUp" data-wow-delay="0.25s">
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                        accusantium , totam rem aperiam, eaque ipsa quae ab illo inventore
-                                        et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                                        ipsam voluptatem quia voluptas sit.
+                                        At Thirdot, we’re more than just developers and marketers—we’re problem solvers. With years of real-world experience and a growing list of satisfied clients, we pride ourselves on delivering solutions that are innovative, scalable, and results-driven. Whether you need a mobile app to simplify your business processes or a digital campaign that connects with your audience, we’ve got you covered.
                                     </p>
+                                    <h3 className="wow fadeInUp">Business Growth</h3>
                                     <p className="wow fadeInUp" data-wow-delay="0.5s">
                                         totam rem aperiam, eaque ipsa quae ab illo inventore et quasi
                                         architecto beatae vitae dicta sunt explicabo. sed quia
                                         consequuntur magni dolores eos qui ratione voluptatem sequi
                                         nesciunt.
                                     </p>
+                                    <h3 className="wow fadeInUp">Technology Consultancy</h3>
                                     <p className="wow fadeInUp" data-wow-delay="0.75s">
                                         At vero eos et accusamus et iusto odio dignissimos ducimus qui
                                         blanditiis praesentium voluptatum deleniti cupiditate non
                                         provident, similique sunt in culpa qui officia deserunt mollitia
                                         animi, id est laborum et dolorum fuga.
                                     </p>
-                                    <ul className="wow fadeInUp" data-wow-delay="1s">
+                                    {/* <ul className="wow fadeInUp" data-wow-delay="1s">
                                         <li>Ease of Scalability</li>
                                         <li>Instant Impact</li>
                                         <li>Expertise and Experience</li>
                                         <li>Time Zone Aligned</li>
                                         <li>Full Flexibility</li>
                                         <li>Proactive Support</li>
-                                    </ul>
-                                    <a
-                                        href="#"
-                                        className="btn-default wow fadeInUp"
-                                        data-wow-delay="1.25s"
-                                    >
-                                        free consultation
-                                    </a>
+                                    </ul> */}
+                                    <Link onClick={() => window.scrollTo(0, 0)} to="/contact">
+                                        <a
+                                            href="#"
+                                            className="btn-default wow fadeInUp"
+                                            data-wow-delay="1.25s"
+                                        >
+                                            get consultation
+                                        </a>
+                                    </Link>
                                 </div>
                                 {/* About Us Content End */}
                             </div>
@@ -82,4 +84,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutSection    

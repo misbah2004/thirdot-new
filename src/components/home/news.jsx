@@ -43,13 +43,14 @@ const News = () => {
                                     {/* Blog Content Start */}
                                     <div className="post-item-body">
                                         <p>
-                                            <a href="#">10 April 2024</a>
+                                            <a href="#">August 26, 2025</a>
                                         </p>
                                         <h2>
                                             <a href="#">
-                                                Unlocking the Potential of AI in Business Success
+                                                Unlocking AI Potential: Data Readiness Roadmap
                                             </a>
                                         </h2>
+                                        <p>Artificial intelligence holds immense promise, but its success depends on one crucial factor—data readiness. Without well-prepared, high-quality data, even the most advanced AI models struggle to deliver meaningful results. This blog explores a structured roadmap to data readiness, offering expert guidance on how organizations can build a strong foundation for AI adoption. From ensuring data quality and integration to addressing governance, compliance, and ethical considerations, we outline the key steps required to unlock AI’s full potential. By following this roadmap, businesses can accelerate innovation, reduce risks, and drive sustainable value through AI.</p>
                                     </div>
                                     {/* Blog Content End */}
                                 </div>

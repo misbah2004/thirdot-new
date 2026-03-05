@@ -3,41 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import { testimonials } from '../../utils/data';
 const Testimonial = () => {
-    const testimonials = [
-        {
-            id: 1,
-            name: "Ali Khan",
-            iconStar: "/assets/images/icon-star.svg",
-            role: "CEO, TechSoft",
-            image: "https://randomuser.me/api/portraits/men/32.jpg",
-            message: "Amazing service! Highly professional team and great support."
-        },
-        {
-            id: 2,
-            name: "Sara Ahmed",
-            iconStar: "/assets/images/icon-star.svg",
-            role: "Marketing Head",
-            image: "https://randomuser.me/api/portraits/women/44.jpg",
-            message: "Our sales increased after working with them. Recommended!"
-        },
-        {
-            id: 3,
-            name: "Usman Tariq",
-            iconStar: "/assets/images/icon-star.svg",
-            role: "Founder, StartupX",
-            image: "https://randomuser.me/api/portraits/men/12.jpg",
-            message: "Top-notch development skills and smooth communication."
-        },
-        {
-            id: 4,
-            name: "Ayesha Noor",
-            iconStar: "/assets/images/icon-star.svg",
-            role: "UI Designer",
-            image: "https://randomuser.me/api/portraits/women/68.jpg",
-            message: "Very creative team. They understand modern UI trends."
-        }
-    ];
+
     return (
         <>
             <div>
