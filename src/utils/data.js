@@ -196,73 +196,73 @@ export const projects = [
         {
             title: "Property website landing page",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-1.jpg",
+            img: "/assets/images/img-thirdot-1.png",
             delay: "0.25s"
         },
         {
             title: "Vibia Indoor Lightings",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-2.jpg",
+            img: "/assets/images/img-thirdot-2.png",
             delay: "0.5s"
         },
         {
             title: "Tour reservation website",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-3.jpg",
+            img: "/assets/images/img-thirdot-3.png",
             delay: "0.75s"
         },
         {
             title: "Digital Document Sharing Platform",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-4.png",
             delay: "1s"
         },
         {
             title: "IT Asset Resale Marketplace",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-5.png",
             delay: "1.05s"
         },
         {
             title: "Online Qur’an Learning Academy",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-6.png",
             delay: "1.1s"
         },
         {
             title: "Generic Netlify Project Demo",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-7.png",
             delay: "1.15s"
         },
         {
             title: "Online Health & Beauty Store",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-8.png",
             delay: "1.2s"
         },
         {
             title: "Digital Vape And Refreshing Flavour",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-9.png",
             delay: "1.25s"
         },
         {
             title: "Affordable Second‑Hand Fashion Store",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-10.png",
             delay: "1.3s"
         },
         {
             title: "Crab Restaurant Locator Website",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-11.png",
             delay: "1.35s"
         },
         {
             title: "Sales transaction management system",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            img: "/assets/images/works-img-4.jpg",
+            img: "/assets/images/img-thirdot-11.png",
             delay: "1.4s"
         },
     ]
