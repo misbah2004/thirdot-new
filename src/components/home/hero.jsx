@@ -7,7 +7,7 @@ const Hero = () => {
             <div>
                 <div className="hero">
                     <div className="container">
-                        <div className="row align-items-center">
+                        <div className="row align-items-center ">
                             <div className="col-lg-8">
                                 {/* Hero Content Start */}
                                 <div className="hero-content hero-content-new">

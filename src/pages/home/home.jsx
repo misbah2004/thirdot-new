@@ -13,7 +13,7 @@ import AboutSection from '../../components/home/about'
 const Home = () => {
     return (
         <>
-            <div>
+            <div className=''>
                 {/* Hero Section Start */}
                 <Hero />
                 {/* Hero Section End */}

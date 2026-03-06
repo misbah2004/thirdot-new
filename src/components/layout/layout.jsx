@@ -12,14 +12,14 @@ const Layout = ({ children }) => {
                 </div> */}
                 {/* Magic Cursor End */}
                 {/* Preloader Start */}
-                <div className="preloader">
+                {/* <div className="preloader">
                     <div className="loading-container">
                         <div className="loading" />
                         <div id="loading-icon">
                             <img src="/assets/images/loding-logo.jpeg" alt="" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* Preloader End */}
                 <Header />
                 <main>{children}</main>
