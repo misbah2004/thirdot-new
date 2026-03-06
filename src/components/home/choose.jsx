@@ -6,7 +6,7 @@ const Choose = () => {
             <div>
                 <div className="why-choose-us">
                     <div className="container">
-                        <div className="row section-row align-items-center">
+                        <div className="row section-row align-items-center px-8">
                             <div className="col-lg-8 col-md-12">
                                 {/* Section Title Start */}
                                 <div className="section-title">
@@ -16,7 +16,7 @@ const Choose = () => {
                                 {/* Section Title End */}
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row px-8">
                             <div className="col-lg-4 col-md-6">
                                 {/* Why Choose Item Start */}
                                 <div

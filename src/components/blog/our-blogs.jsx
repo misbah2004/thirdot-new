@@ -10,7 +10,7 @@ const OurBlogs = ({ start, end }) => {
     return (
         <div className="latest-news our-blog">
             <div className="container">
-                {location === "/" && <div className="row section-row align-items-center">
+                {location === "/" && <div className="row section-row align-items-center px-8">
                     <div className="col-lg-6 col-md-8">
                         {/* Section Title Start */}
                         <div className="section-title">
@@ -31,7 +31,7 @@ const OurBlogs = ({ start, end }) => {
                         {/* Section Btn End */}
                     </div>
                 </div>}
-                <div className="row">
+                <div className="row px-8">
                     {blogData.slice(start, end).map((blog) => (
                         <div key={blog.id} className="col-lg-4 col-md-6">
                             <div

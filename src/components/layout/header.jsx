@@ -6,10 +6,10 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="main-header">
-            <div className="header-sticky">
-                <nav className="navbar navbar-expand-lg">
-                    <div className="container">
+        <header className="main-header px-8">
+            <div className="header-sticky ">
+                <nav className="navbar navbar-expand-lg ">
+                    <div className="container !px-8">
 
                         {/* Logo */}
                         <Link to="/" className="navbar-brand">

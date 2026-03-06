@@ -7,7 +7,7 @@ const AboutSection = () => {
             <div>
                 <div className="about-us">
                     <div className="container">
-                        <div className="row section-row align-items-center">
+                        <div className="row section-row align-items-center px-8">
                             <div className="col-lg-8">
                                 {/* Section Title Start */}
                                 <div className="section-title">
@@ -19,7 +19,7 @@ const AboutSection = () => {
                                 {/* Section Title End */}
                             </div>
                         </div>
-                        <div className="row align-items-center">
+                        <div className="row align-items-center px-8">
                             <div className="col-lg-6">
                                 {/* About Us Image Start */}
                                 <div className="about-image">

@@ -11,7 +11,7 @@ const Work = ({ start, end }) => {
         <div className="our-work">
             <div className="container">
 
-                <div className="row section-row align-items-center">
+                <div className="row section-row align-items-center px-8">
 
                     {location !== "/portfolio" && <div className="col-lg-8 col-md-9">
                         <div className="section-title">
@@ -32,7 +32,7 @@ const Work = ({ start, end }) => {
 
                 </div>
 
-                <div className="row">
+                <div className="row px-8">
 
                     {projects.slice(start, end).map((project, index) => (
 

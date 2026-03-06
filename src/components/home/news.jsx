@@ -6,7 +6,7 @@ const News = () => {
             <div>
                 <div className="latest-news">
                     <div className="container">
-                        <div className="row section-row align-items-center">
+                        <div className="row section-row align-items-center px-8">
                             <div className="col-lg-6 col-md-8">
                                 {/* Section Title Start */}
                                 <div className="section-title">

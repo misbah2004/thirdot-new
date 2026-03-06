@@ -10,8 +10,8 @@ const Testimonial = () => {
         <>
             <div>
                 <section className="testimonials-section">
-                    <div className="container">
-                        <div className="section-title">
+                    <div className="container ">
+                        <div className="section-title px-8 ">
                             <h3 className="wow fadeInUp">client testimonials</h3>
                             <h2 className="text-anime-style-3">
                                 Our customers love us.
@@ -38,7 +38,7 @@ const Testimonial = () => {
                         >
                             {testimonials.map((item) => (
                                 <SwiperSlide key={item.id}>
-                                    <div className="swiper-slide">
+                                    <div className="swiper-slide px-8">
                                         <div className="testimonial-item">
                                             <div className="testimonial-rating">
                                                 <img src={item.iconStar} alt="Star Rating" />

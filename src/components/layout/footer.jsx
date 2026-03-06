@@ -7,7 +7,7 @@ const Footer = () => {
                 {/* Footer Start */}
                 <footer className="main-footer">
                     <div className="container">
-                        <div className="row">
+                        <div className="row px-8">
                             <div className="col-md-12">
                                 {/* Mega Footer Start */}
                                 <div className="mega-footer">
