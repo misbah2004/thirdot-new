@@ -6,18 +6,18 @@ const OverCompany = () => {
             <div>
                 <div className="overview-company">
                     <div className="container">
-                        <div className="row section-row align-items-center">
-                            <div className="col-lg-12">
+                        <div className="row section-row align-items-center px-10">
+                            <div className="col-lg-12 ">
                                 {/* Section Title Start */}
                                 <div className="section-title">
-                                    <h3 className="wow fadeInUp">our team</h3>
-                                    <h2 className="text-anime-style-3">Meet the expert</h2>
+                                    <h3 className="wow fadeInUp">ourview comapny</h3>
+                                    <h2 className="text-anime-style-3">Stats that matter</h2>
                                 </div>
                                 {/* Section Title End */}
                             </div>
                         </div>
 
-                        <div className="row">
+                        <div className="row px-10">
                             <div className="col-lg-3 col-md-6">
                                 {/* Counter Box Start */}
                                 <div className="counter-box">

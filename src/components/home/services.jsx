@@ -45,7 +45,7 @@ const Services = () => {
         <div className="our-services">
             <div className="container">
 
-                <div className="row section-row align-items-center px-8">
+                <div className="row section-row align-items-center px-10">
                     <div className="col-lg-7 col-md-7">
                         <div className="section-title">
                             <h3 className="wow fadeInUp">our services</h3>
@@ -62,7 +62,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="row px-8">
+                <div className="row px-10">
 
                     {services.map((service, index) => (
                         <div className="col-lg-4 col-md-6" key={index}>

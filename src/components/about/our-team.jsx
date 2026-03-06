@@ -12,8 +12,8 @@ const OurTeam = () => {
             <div className="container">
 
                 {/* Section Title */}
-                <div className="row section-row align-items-center">
-                    <div className="col-lg-12">
+                <div className="row section-row align-items-center px-10">
+                    <div className="col-lg-12 px-10">
                         <div className="section-title ">
                             <h3>Our Team</h3>
                             <h2>Meet the Expert</h2>
@@ -37,7 +37,7 @@ const OurTeam = () => {
                     {teamData.map((member) => (
                         <SwiperSlide key={member.id}>
 
-                            <div className="team-member-item">
+                            <div className="team-member-item px-6">
 
                                 <div className="team-image">
                                     <figure>

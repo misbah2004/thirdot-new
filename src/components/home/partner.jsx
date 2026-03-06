@@ -6,7 +6,7 @@ const Partner = () => {
             <div>
                 <div className="exclusive-partners">
                     <div className="container">
-                        <div className="row section-row align-items-center px-8">
+                        <div className="row section-row align-items-center px-10">
                             <div className="col-lg-12">
                                 {/* Section Title Start */}
                                 <div className="section-title">
@@ -18,7 +18,7 @@ const Partner = () => {
                                 {/* Section Title End */}
                             </div>
                         </div>
-                        <div className="row px-8">
+                        <div className="row px-10">
                             <div className="col-lg-3 col-6">
                                 {/* Partners Logo Start */}
                                 <div className="partners-logo wow fadeInUp" data-wow-delay="0.2s">

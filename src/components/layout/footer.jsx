@@ -7,7 +7,7 @@ const Footer = () => {
                 {/* Footer Start */}
                 <footer className="main-footer">
                     <div className="container">
-                        <div className="row px-8">
+                        <div className="row px-10">
                             <div className="col-md-12">
                                 {/* Mega Footer Start */}
                                 <div className="mega-footer">
@@ -21,7 +21,7 @@ const Footer = () => {
                                                 <p>Creative Agency Based on Lorem Ipsum</p>
                                                 <ul>
                                                     <li>
-                                                        <a href="#">info@domainname.com</a>
+                                                        <a href="#">info@thirdot.com</a>
                                                     </li>
                                                     <li>
                                                         <a href="#">(+0) 123 456 789</a>

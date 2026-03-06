@@ -266,3 +266,54 @@ export const projects = [
             delay: "1.4s"
         },
     ]
+
+export const services = [
+  {
+    id: 1,
+    title: "Web Development",
+    description:
+      "Totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.",
+    image: "/assets/images/service-img-1.jpg",
+    delay: "0.25s",
+  },
+  {
+    id: 2,
+    title: "Digital Marketing",
+    description:
+      "Totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.",
+    image: "/assets/images/service-img-2.jpg",
+    delay: "0.5s",
+  },
+  {
+    id: 3,
+    title: "Game Development",
+    description:
+      "Totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.",
+    image: "/assets/images/service-img-3.jpg",
+    delay: "0.75s",
+  },
+  {
+    id: 4,
+    title: "Mobile App Development",
+    description:
+      "Totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.",
+    image: "/assets/images/service-img-4.jpg",
+    delay: "1s",
+  },
+  {
+    id: 5,
+    title: "Networking Services",
+    description:
+      "Totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.",
+    image: "/assets/images/service-img-5.jpg",
+    delay: "1.25s",
+  },
+  {
+    id: 6,
+    title: "Graphics Design",
+    description:
+      "Totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.",
+    image: "/assets/images/service-img-6.jpg",
+    delay: "1.5s",
+  },
+];

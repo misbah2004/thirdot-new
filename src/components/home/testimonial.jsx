@@ -11,7 +11,7 @@ const Testimonial = () => {
             <div>
                 <section className="testimonials-section">
                     <div className="container ">
-                        <div className="section-title px-8 ">
+                        <div className="section-title px-10">
                             <h3 className="wow fadeInUp">client testimonials</h3>
                             <h2 className="text-anime-style-3">
                                 Our customers love us.
@@ -22,7 +22,7 @@ const Testimonial = () => {
                             modules={[Pagination, Autoplay]}
                             spaceBetween={30}
                             // pagination={{ clickable: true, dynamicBullets: false }}
-                            autoplay={{ delay: 3000 }}
+                            autoplay={{ delay: 2000 }}
                             loop={true}
                             breakpoints={{
                                 320: {
@@ -38,7 +38,7 @@ const Testimonial = () => {
                         >
                             {testimonials.map((item) => (
                                 <SwiperSlide key={item.id}>
-                                    <div className="swiper-slide px-8">
+                                    <div className="swiper-slide !h-74 ">
                                         <div className="testimonial-item">
                                             <div className="testimonial-rating">
                                                 <img src={item.iconStar} alt="Star Rating" />
