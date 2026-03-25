@@ -7,6 +7,9 @@ import Portfolio from './pages/portfolio/portfolio'
 import Services from './pages/services/services'
 import Blog from './pages/blog/blog'
 import Contact from './pages/contact/contact'
+import PrivacyPolicy from './pages/privacy/privacy-policy'
+import { TermsAndConditions } from './pages/terms/terms&condition'
+import BlogDetail from './pages/blog/blog-detail'
 
 const App = () => {
   return (
@@ -18,6 +21,9 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path="/blog/:id" element={<BlogDetail />} />
       </Routes>
     </>
   )

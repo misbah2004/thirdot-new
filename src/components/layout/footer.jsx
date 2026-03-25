@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -117,14 +118,14 @@ const Footer = () => {
                                             <div className="footer-policy-links">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">privacy policy</a>
+                                                        <Link onClick={() => window.scrollTo(0, 0)} to="/privacy"><a href="#">privacy policy</a></Link>
                                                     </li>
                                                     <li>
-                                                        <a href="#">terms of service</a>
+                                                        <Link onClick={() => window.scrollTo(0, 0)} to="/terms"><a href="#">terms of service</a></Link>
                                                     </li>
-                                                    <li className="highlighted">
+                                                    {/* <li className="highlighted">
                                                         <a href="#top">go to top</a>
-                                                    </li>
+                                                    </li> */}
                                                 </ul>
                                             </div>
                                             {/* Footer Policy Links End */}
